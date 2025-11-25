@@ -222,7 +222,7 @@ function App() {
             <div className="award-card">
               <div className="award-icon">🌟</div>
               <h3>Performance Excellence Award</h3>
-              <p className="award-org">Compliance Innovation| Aug 2025</p>
+              <p className="award-org">Compliance Innovation | Aug 2025</p>
               <p className="award-description">
                 Awarded for exceptional performance, consistently exceeding project goals, and demonstrating excellence in software engineering practices and team collaboration.
               </p>
@@ -230,7 +230,7 @@ function App() {
             <div className="award-card">
               <div className="award-icon">🏆</div>
               <h3>Employee of the Year</h3>
-              <p className="award-org">Compliance Innovation| Oct 2023</p>
+              <p className="award-org">Compliance Innovation | Oct 2023</p>
               <p className="award-description">
                 Recognized for outstanding performance, technical leadership, and contribution to the API Builder project, resulting in significant cost savings and process improvements.
               </p>
