@@ -22,30 +22,53 @@ function App() {
       {/* Hero Section */}
       <section className="hero" id="about">
         <div className="hero-container">
-          <div className="hero-content">
-            <img src="/avinash.jpeg" alt="Avinash Mani Tripathi" className="profile-image" />
-            <h1 className="hero-title">Avinash Mani Tripathi</h1>
-            <h2 className="hero-subtitle">Senior Software Engineer</h2>
-            <p className="hero-description">
-              Senior Software Engineer with 5+ years of experience in full-stack web development using React.js, Node.js, JavaScript/TypeScript, and SQL/NoSQL databases. Skilled in building scalable architectures, RESTful APIs, and microservices.
-            </p>
-            <div className="hero-contact">
-              <a href="mailto:avinashmanitripathi97@gmail.com" className="contact-link">
-                <span>📧</span> avinashmanitripathi97@gmail.com
-              </a>
-              <a href="tel:+916393177038" className="contact-link">
-                <span>📞</span> +91 6393177038
-              </a>
-              <span className="contact-link">
-                <span>📍</span> Noida, Uttar Pradesh, India
-              </span>
+          <div className="hero-left">
+            <div className="hero-text">
+              <h1 className="hero-title">Avinash Mani Tripathi</h1>
+              <h2 className="hero-subtitle">Senior Software Engineer</h2>
+              <p className="hero-description">
+                Senior Software Engineer with 5+ years of experience in full-stack web development using React.js, Node.js, JavaScript/TypeScript, and SQL/NoSQL databases. Skilled in building scalable architectures, RESTful APIs, and microservices.
+              </p>
+              <div className="hero-stats">
+                <div className="stat-item">
+                  <div className="stat-number">5+</div>
+                  <div className="stat-label">Years Experience</div>
+                </div>
+                <div className="stat-item">
+                  <div className="stat-number">20+</div>
+                  <div className="stat-label">APIs Built</div>
+                </div>
+                <div className="stat-item">
+                  <div className="stat-number">3</div>
+                  <div className="stat-label">Awards Won</div>
+                </div>
+              </div>
+              <div className="hero-social">
+                <a href="https://www.linkedin.com/in/avinash-mani-tripathi-a27b7a26b" target="_blank" rel="noopener noreferrer" className="social-btn">LinkedIn</a>
+                <a href="https://github.com/avinashmanitripathi" target="_blank" rel="noopener noreferrer" className="social-btn">GitHub</a>
+                <a href="/Aviansh__Tripathi_-_Senior_Software_Engineer_5_Exp.pdf" download className="social-btn resume-btn">
+                  Download Resume
+                </a>
+              </div>
             </div>
-            <div className="hero-social">
-              <a href="https://www.linkedin.com/in/avinash-mani-tripathi-a27b7a26b" target="_blank" rel="noopener noreferrer" className="social-btn">LinkedIn</a>
-              <a href="https://github.com/avinashmanitripathi" target="_blank" rel="noopener noreferrer" className="social-btn">GitHub</a>
-              <a href="/Aviansh__Tripathi_-_Senior_Software_Engineer_5_Exp.pdf" download className="social-btn resume-btn">
-                📄 Download Resume
-              </a>
+          </div>
+          <div className="hero-right">
+            <div className="hero-image-wrapper">
+              <img src="/avinash.jpeg" alt="Avinash Mani Tripathi" className="profile-image" />
+              <div className="hero-contact-card">
+                <div className="contact-item">
+                  <span className="contact-icon">📧</span>
+                  <a href="mailto:avinashmanitripathi97@gmail.com">avinashmanitripathi97@gmail.com</a>
+                </div>
+                <div className="contact-item">
+                  <span className="contact-icon">📞</span>
+                  <a href="tel:+916393177038">+91 6393177038</a>
+                </div>
+                <div className="contact-item">
+                  <span className="contact-icon">📍</span>
+                  <span>Noida, Uttar Pradesh, India</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -100,36 +123,43 @@ function App() {
       {/* Skills Section */}
       <section className="skills" id="skills">
         <div className="container">
-          <h2 className="section-title">Areas of Expertise</h2>
-          <div className="skills-grid">
-            <div className="skill-category">
-              <h3>Frontend</h3>
-              <div className="skill-tags">
-                <span className="skill-tag">React JS</span>
-                <span className="skill-tag">Web Components</span>
-                <span className="skill-tag">WebAuthn</span>
-                <span className="skill-tag">HTML</span>
-                <span className="skill-tag">CSS</span>
-                <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">Micro Frontends</span>
-              </div>
+          <div className="skills-layout">
+            <div className="skills-left">
+              <h2 className="section-title-left">Areas of Expertise</h2>
+              <p className="skills-intro">
+                Proficient in modern web technologies with a focus on building scalable, secure, and high-performance applications. Experienced in both frontend and backend development with expertise in cloud deployment and CI/CD practices.
+              </p>
             </div>
-            <div className="skill-category">
-              <h3>Backend</h3>
-              <div className="skill-tags">
-                <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">RESTful APIs</span>
-                <span className="skill-tag">Microservices</span>
-                <span className="skill-tag">GraphQL</span>
+            <div className="skills-right">
+              <div className="skill-category">
+                <h3>Frontend</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">React JS</span>
+                  <span className="skill-tag">Web Components</span>
+                  <span className="skill-tag">WebAuthn</span>
+                  <span className="skill-tag">HTML</span>
+                  <span className="skill-tag">CSS</span>
+                  <span className="skill-tag">JavaScript</span>
+                  <span className="skill-tag">Micro Frontends</span>
+                </div>
               </div>
-            </div>
-            <div className="skill-category">
-              <h3>Other</h3>
-              <div className="skill-tags">
-                <span className="skill-tag">TypeScript</span>
-                <span className="skill-tag">Security Best Practices</span>
-                <span className="skill-tag">CI/CD</span>
-                <span className="skill-tag">AWS/GCP</span>
+              <div className="skill-category">
+                <h3>Backend</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">Node.js</span>
+                  <span className="skill-tag">RESTful APIs</span>
+                  <span className="skill-tag">Microservices</span>
+                  <span className="skill-tag">GraphQL</span>
+                </div>
+              </div>
+              <div className="skill-category">
+                <h3>Other</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">TypeScript</span>
+                  <span className="skill-tag">Security Best Practices</span>
+                  <span className="skill-tag">CI/CD</span>
+                  <span className="skill-tag">AWS/GCP</span>
+                </div>
               </div>
             </div>
           </div>
