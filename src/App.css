@@ -177,6 +177,18 @@
   color: white;
 }
 
+.resume-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white !important;
+  border: 2px solid white;
+}
+
+.resume-btn:hover {
+  background: white;
+  color: #667eea !important;
+  border: 2px solid white;
+}
+
 /* Container */
 .container {
   max-width: 1200px;
@@ -419,7 +431,7 @@ section {
 
 .awards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
 }
 

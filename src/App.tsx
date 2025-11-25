@@ -43,6 +43,9 @@ function App() {
             <div className="hero-social">
               <a href="https://linkedin.com/in/avinash-mani-tripathi" target="_blank" rel="noopener noreferrer" className="social-btn">LinkedIn</a>
               <a href="https://github.com/avinashmanitripathi" target="_blank" rel="noopener noreferrer" className="social-btn">GitHub</a>
+              <a href="/Aviansh__Tripathi_-_Senior_Software_Engineer_5_Exp.pdf" download className="social-btn resume-btn">
+                📄 Download Resume
+              </a>
             </div>
           </div>
         </div>
@@ -187,6 +190,14 @@ function App() {
           <h2 className="section-title">Awards & Recognition</h2>
           <div className="awards-grid">
             <div className="award-card">
+              <div className="award-icon">🌟</div>
+              <h3>Performance Excellence Award</h3>
+              <p className="award-org">Satschel LLC | Aug 2025</p>
+              <p className="award-description">
+                Awarded for exceptional performance, consistently exceeding project goals, and demonstrating excellence in software engineering practices and team collaboration.
+              </p>
+            </div>
+            <div className="award-card">
               <div className="award-icon">🏆</div>
               <h3>Employee of the Year</h3>
               <p className="award-org">Satschel LLC | Oct 2023</p>
@@ -236,6 +247,9 @@ function App() {
               </a>
               <a href="https://github.com/avinashmanitripathi" target="_blank" rel="noopener noreferrer" className="contact-btn">
                 💻 GitHub
+              </a>
+              <a href="/Aviansh__Tripathi_-_Senior_Software_Engineer_5_Exp.pdf" download className="contact-btn">
+                📄 Download Resume
               </a>
             </div>
           </div>
