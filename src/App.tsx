@@ -41,7 +41,7 @@ function App() {
               </span>
             </div>
             <div className="hero-social">
-              <a href="https://linkedin.com/in/avinash-mani-tripathi" target="_blank" rel="noopener noreferrer" className="social-btn">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/avinash-mani-tripathi-a27b7a26b" target="_blank" rel="noopener noreferrer" className="social-btn">LinkedIn</a>
               <a href="https://github.com/avinashmanitripathi" target="_blank" rel="noopener noreferrer" className="social-btn">GitHub</a>
               <a href="/Aviansh__Tripathi_-_Senior_Software_Engineer_5_Exp.pdf" download className="social-btn resume-btn">
                 📄 Download Resume
@@ -242,7 +242,7 @@ function App() {
               <a href="mailto:avinashmanitripathi97@gmail.com" className="contact-btn">
                 📧 Email Me
               </a>
-              <a href="https://linkedin.com/in/avinash-mani-tripathi" target="_blank" rel="noopener noreferrer" className="contact-btn">
+              <a href="https://www.linkedin.com/in/avinash-mani-tripathi-a27b7a26b" target="_blank" rel="noopener noreferrer" className="contact-btn">
                 💼 LinkedIn
               </a>
               <a href="https://github.com/avinashmanitripathi" target="_blank" rel="noopener noreferrer" className="contact-btn">
